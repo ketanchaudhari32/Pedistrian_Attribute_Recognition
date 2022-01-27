@@ -1,0 +1,55 @@
+------------------------------------------------------------
+Evaluation on test set:
+Label-based evaluation: 
+ mA: 0.7283
+Instance-based evaluation: 
+ Acc: 0.6228, Prec: 0.7609, Rec: 0.7435, F1: 0.7521
+------------------------------------------------------------
+
+
+fg.__dict__
+{'att_list': ['personalLess30',
+              'personalLess45',
+              'personalLess60',
+              'personalLarger60',
+              'carryingBackpack',
+              'carryingOther',
+              'lowerBodyCasual',
+              'upperBodyCasual',
+              'lowerBodyFormal',
+              'upperBodyFormal',
+              'accessoryHat',
+              'upperBodyJacket',
+              'lowerBodyJeans',
+              'footwearLeatherShoes',
+              'upperBodyLogo',
+              'hairLong',
+              'personalMale',
+              'carryingMessengerBag',
+              'accessoryMuffler',
+              'accessoryNothing',
+              'carryingNothing',
+              'upperBodyPlaid',
+              'carryingPlasticBags',
+              'footwearSandals',
+              'footwearShoes',
+              'lowerBodyShorts',
+              'upperBodyShortSleeve',
+              'lowerBodyShortSkirt',
+              'footwearSneaker',
+              'upperBodyThinStripes',
+              'accessorySunglasses',
+              'lowerBodyTrousers',
+              'upperBodyTshirt',
+              'upperBodyOther',
+              'upperBodyVNeck'],
+ 'demo_image': './dataset/demo/demo_image.png',
+ 'load_model_weight': True,
+ 'mean': [0.485, 0.456, 0.406],
+ 'model_kwargs': {'last_conv_stride': 2, 'num_att': 35},
+ 'model_weight_file': './exp/deepmar_resnet50/peta/partition0/run1/model/ckpt_epoch1.pth',
+ 'rand_seed': None,
+ 'resize': (224, 224),
+ 'set_seed': False,
+ 'std': [0.229, 0.224, 0.225],
+ 'sys_device_ids': ()}
